@@ -7,6 +7,8 @@ import csv
 import datetime
 import re
 import os
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #validate Engine
 def validate_engine(enginevalue):
